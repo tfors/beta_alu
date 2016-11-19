@@ -21,7 +21,7 @@ module cla_gpc (
 
 assign ghl = gh | ph & gl;
 assign phl = ph & pl;
-assign ch = gl | pl & cin;
-assign cl = cin;
+assign ch = gl | pl & ci;
+assign cl = ci;
 
 endmodule
