@@ -1,0 +1,28 @@
+[*]
+[*] GTKWave Analyzer v3.3.68 (w)1999-2016 BSI
+[*] Sun Aug 21 15:37:28 2016
+[*]
+[dumpfile] "beta_alu_tb.vcd"
+[dumpfile_mtime] "Sun Aug 21 15:37:12 2016"
+[dumpfile_size] 304
+[savefile] "beta_alu_tb.sav"
+[timestart] 0
+[size] 1000 600
+[pos] 186 105
+*-14.998483 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] beta_alu_tb.
+[sst_width] 203
+[signals_width] 150
+[sst_expanded] 1
+[sst_vpaned_height] 157
+@28
+beta_alu_tb.clock[0]
+beta_alu_tb.reset[0]
+@200
+-
+
+
+@23
+beta_alu_tb.dut.counter[31:0]
+[pattern_trace] 1
+[pattern_trace] 0
