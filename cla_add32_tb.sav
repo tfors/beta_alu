@@ -1,15 +1,15 @@
 [*]
 [*] GTKWave Analyzer v3.3.72 (w)1999-2016 BSI
-[*] Sat Nov 19 18:32:07 2016
+[*] Sun Nov 20 20:22:56 2016
 [*]
 [dumpfile] "/home/tfors/src/classes/edx_6.004.1x/alu/fpga/beta_alu/cla_add32_tb.vcd"
-[dumpfile_mtime] "Sat Nov 19 18:31:44 2016"
-[dumpfile_size] 1538
+[dumpfile_mtime] "Sun Nov 20 20:22:50 2016"
+[dumpfile_size] 1428
 [savefile] "/home/tfors/src/classes/edx_6.004.1x/alu/fpga/beta_alu/cla_add32_tb.sav"
 [timestart] 0
 [size] 1000 600
 [pos] 48 0
-*-16.088327 55200 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+*-14.924836 29300 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
 [sst_width] 225
 [signals_width] 94
 [sst_expanded] 1

@@ -21,14 +21,6 @@ always begin
 end
 
 // -------------------------------------------------------
-// TERMINATION
-// -------------------------------------------------------
-
-initial begin
-	#136 $finish;
-end
-
-// -------------------------------------------------------
 // INITIALIZATION
 // -------------------------------------------------------
 
@@ -47,7 +39,6 @@ task test_case;
     input [2:0] inputs;
     input [2:0] expected_output;
     begin
-        @(posedge clock)
         {a, b, ci} <= inputs;
         @(posedge clock)
         if ({s, g, p} == expected_output) begin
@@ -64,6 +55,7 @@ task test_case;
 endtask
 
 initial begin
+	@(posedge clock);
     $display("");
     test_case(3'b000, 3'b000);
     test_case(3'b001, 3'b100);
@@ -74,6 +66,7 @@ initial begin
     test_case(3'b110, 3'b010);
     test_case(3'b111, 3'b110);
     $display("");
+	$finish;
 end
 
 

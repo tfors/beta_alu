@@ -1,0 +1,31 @@
+[*]
+[*] GTKWave Analyzer v3.3.72 (w)1999-2016 BSI
+[*] Sun Nov 20 20:06:23 2016
+[*]
+[dumpfile] "/home/tfors/src/classes/edx_6.004.1x/alu/fpga/beta_alu/alu_shift_tb.vcd"
+[dumpfile_mtime] "Sun Nov 20 20:05:41 2016"
+[dumpfile_size] 1928
+[savefile] "/home/tfors/src/classes/edx_6.004.1x/alu/fpga/beta_alu/alu_shift_tb.sav"
+[timestart] 0
+[size] 1000 600
+[pos] 148 -239
+*-18.002066 250000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 225
+[signals_width] 94
+[sst_expanded] 1
+[sst_vpaned_height] 160
+@28
+alu_shift_tb.clock[0]
+@200
+-Inputs
+@28
+alu_shift_tb.sfn[1:0]
+@22
+alu_shift_tb.a[31:0]
+alu_shift_tb.b[4:0]
+@200
+-Outputs
+@23
+alu_shift_tb.y[31:0]
+[pattern_trace] 1
+[pattern_trace] 0
