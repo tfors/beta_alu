@@ -1,0 +1,31 @@
+[*]
+[*] GTKWave Analyzer v3.3.72 (w)1999-2016 BSI
+[*] Fri Nov 25 18:08:58 2016
+[*]
+[dumpfile] "/home/tfors/src/classes/edx_6.004.1x/alu/fpga/beta_alu/alu_cmp_tb.vcd"
+[dumpfile_mtime] "Fri Nov 25 18:08:53 2016"
+[dumpfile_size] 558
+[savefile] "/home/tfors/src/classes/edx_6.004.1x/alu/fpga/beta_alu/alu_cmp_tb.sav"
+[timestart] 0
+[size] 1000 600
+[pos] -1 -1
+*-15.707239 102900 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 225
+[signals_width] 94
+[sst_expanded] 1
+[sst_vpaned_height] 160
+@28
+alu_cmp_tb.clock[0]
+@200
+-Inputs
+@28
+alu_cmp_tb.cfn[1:0]
+alu_cmp_tb.z[0]
+alu_cmp_tb.v[0]
+alu_cmp_tb.n[0]
+@200
+-Output
+@22
+alu_cmp_tb.y[31:0]
+[pattern_trace] 1
+[pattern_trace] 0

@@ -57,6 +57,15 @@ arith: $(ARITH_SRC)
 	vvp -n $(ARITH_TESTBENCH).vvp +vcd -lxt2
 	gtkwave $(ARITH_TESTBENCH).vcd $(ARITH_TESTBENCH).sav
 
+CMP_TESTBENCH = alu_cmp_tb
+CMP_SRC += $(CMP_TESTBENCH).v
+CMP_SRC += alu_cmp.v
+.PHONY: cmp
+cmp: $(CMP_SRC)
+	iverilog -o $(CMP_TESTBENCH).vvp $^
+	vvp -n $(CMP_TESTBENCH).vvp +vcd -lxt2
+	gtkwave $(CMP_TESTBENCH).vcd $(CMP_TESTBENCH).sav
+
 .PHONY: clean
 clean:
 	rm -rf *.vvp *.vcd *~
