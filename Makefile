@@ -37,6 +37,15 @@ shift: $(SHIFT_SRC)
 	vvp -n $(SHIFT_TESTBENCH).vvp +vcd -lxt2
 	gtkwave $(SHIFT_TESTBENCH).vcd $(SHIFT_TESTBENCH).sav
 
+BOOL_TESTBENCH = alu_bool_tb
+BOOL_SRC += $(BOOL_TESTBENCH).v
+BOOL_SRC += alu_bool.v
+.PHONY: bool
+bool: $(BOOL_SRC)
+	iverilog -o $(BOOL_TESTBENCH).vvp $^
+	vvp -n $(BOOL_TESTBENCH).vvp +vcd -lxt2
+	gtkwave $(BOOL_TESTBENCH).vcd $(BOOL_TESTBENCH).sav
+
 .PHONY: clean
 clean:
 	rm -rf *.vvp *.vcd *~
