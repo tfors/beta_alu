@@ -46,6 +46,17 @@ bool: $(BOOL_SRC)
 	vvp -n $(BOOL_TESTBENCH).vvp +vcd -lxt2
 	gtkwave $(BOOL_TESTBENCH).vcd $(BOOL_TESTBENCH).sav
 
+ARITH_TESTBENCH = alu_arith_tb
+ARITH_SRC += $(ARITH_TESTBENCH).v
+ARITH_SRC += alu_arith.v
+ARITH_SRC += cla_add32.v cla_add16.v cla_add8.v cla_add4.v cla_add2.v
+ARITH_SRC += cla_fa.v cla_gpc.v
+.PHONY: arith
+arith: $(ARITH_SRC)
+	iverilog -o $(ARITH_TESTBENCH).vvp $^
+	vvp -n $(ARITH_TESTBENCH).vvp +vcd -lxt2
+	gtkwave $(ARITH_TESTBENCH).vcd $(ARITH_TESTBENCH).sav
+
 .PHONY: clean
 clean:
 	rm -rf *.vvp *.vcd *~
