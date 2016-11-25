@@ -1,28 +1,36 @@
 [*]
-[*] GTKWave Analyzer v3.3.68 (w)1999-2016 BSI
-[*] Sun Aug 21 15:37:28 2016
+[*] GTKWave Analyzer v3.3.72 (w)1999-2016 BSI
+[*] Fri Nov 25 18:55:47 2016
 [*]
-[dumpfile] "beta_alu_tb.vcd"
-[dumpfile_mtime] "Sun Aug 21 15:37:12 2016"
-[dumpfile_size] 304
-[savefile] "beta_alu_tb.sav"
+[dumpfile] "/home/tfors/src/classes/edx_6.004.1x/alu/fpga/beta_alu/beta_alu_tb.vcd"
+[dumpfile_mtime] "Fri Nov 25 18:55:19 2016"
+[dumpfile_size] 7884
+[savefile] "/home/tfors/src/classes/edx_6.004.1x/alu/fpga/beta_alu/beta_alu_tb.sav"
 [timestart] 0
 [size] 1000 600
 [pos] 186 105
-*-14.998483 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+*-18.955456 988000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
 [treeopen] beta_alu_tb.
-[sst_width] 203
+[treeopen] beta_alu_tb.dut.
+[sst_width] 225
 [signals_width] 150
 [sst_expanded] 1
 [sst_vpaned_height] 157
 @28
 beta_alu_tb.clock[0]
-beta_alu_tb.reset[0]
 @200
--
-
-
-@23
-beta_alu_tb.dut.counter[31:0]
+-Inputs
+@22
+beta_alu_tb.fn[5:0]
+beta_alu_tb.a[31:0]
+beta_alu_tb.b[31:0]
+@200
+-Output
+@22
+beta_alu_tb.y[31:0]
+@28
+beta_alu_tb.dut.z[0]
+beta_alu_tb.dut.v[0]
+beta_alu_tb.dut.n[0]
 [pattern_trace] 1
 [pattern_trace] 0

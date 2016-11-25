@@ -2,6 +2,10 @@ TESTBENCH = beta_alu_tb
 
 SRC += $(TESTBENCH).v
 SRC += beta_alu.v
+SRC += alu_shift.v
+SRC += alu_bool.v
+SRC += alu_arith.v cla_add32.v cla_add16.v cla_add8.v cla_add4.v cla_add2.v cla_fa.v cla_gpc.v
+SRC += alu_cmp.v
 
 .PHONY: test
 test: $(SRC)
