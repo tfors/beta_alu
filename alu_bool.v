@@ -22,14 +22,6 @@ function mux4;
         else if (sel == 2'b01) mux4 = a[1];
         else if (sel == 2'b10) mux4 = a[2];
         else if (sel == 2'b11) mux4 = a[3];
-        // always @(*) begin
-        //     case (sel)
-        //         0: mux4 = a[0];
-        //         1: mux4 = a[1];
-        //         2: mux4 = a[2];
-        //         3: mux4 = a[3];
-        //     endcase
-        // end
     end
 endfunction
 
